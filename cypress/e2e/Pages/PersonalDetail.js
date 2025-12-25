@@ -3,8 +3,8 @@ class PersonalDetailPage {
     ":nth-child(1) > :nth-child(2) > .oxd-radio-wrapper > label > .oxd-radio-input";
   genderFemale =
     ":nth-child(2) > :nth-child(2) > .oxd-radio-wrapper > label > .oxd-radio-input";
-  maritalStatus =
-    ":nth-child(5) > :nth-child(1) > :nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text > .oxd-select-text-input";
+//   maritalStatus =
+//     ":nth-child(5) > :nth-child(1) > :nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text > .oxd-select-text-input";
   saveBtn = ":nth-child(1) > .oxd-form > .oxd-form-actions > .oxd-button";
 
   selectGender(gender) {
@@ -16,14 +16,27 @@ class PersonalDetailPage {
     }
   }
 
-  selectMaritalStatus(status) {
-    cy.contains("label", "Marital Status")
-      .parent()
-      .find(".oxd-select-text")
-      .click();
+//   selectMaritalStatus(status) {
+//     cy.contains("label", "Marital Status")
+//       .parent()
+//       .find(".oxd-select-text")
+//       .click();
 
-    cy.contains(this.maritalStatus, status).click();
-  }
+//     cy.contains(this.maritalStatus, status).click();
+//   }
+
+
+
+
+selectMaritalStatus() {
+//   cy.get('.oxd-select-text').click()
+cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text > .oxd-select-text-input')
+.type('{downarrow}{enter}');
+//   cy.get('.oxd-select-dropdown').contains('Single').click();
+}
+
+
+
   clickOnSave() {
     cy.get(this.saveBtn).click();
   }

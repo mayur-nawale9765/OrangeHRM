@@ -45,8 +45,11 @@ DashboardPage.verifyDashboardVisible();
  When('user selects gender as {string}',(gender)=>{
 PersonalDetail.selectGender(gender);
  })
- And('user selects marital status as {string}',(status)=>{
-PersonalDetail.selectMaritalStatus(status);
+//  And('user selects marital status as {string}',(status)=>{
+// PersonalDetail.selectMaritalStatus(status);
+//  })
+And('user selects marital status as status',()=>{
+PersonalDetail.selectMaritalStatus();
  })
  And('user click on save button on user detail',()=>{
 PersonalDetail.clickOnSave();
