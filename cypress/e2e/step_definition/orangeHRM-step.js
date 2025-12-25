@@ -42,11 +42,11 @@ DashboardPage.verifyDashboardVisible();
  Then('user is on the user detail page',()=>{
   PimPage.verifyPersonalDetail();
  })
- When('user selects gender as {string}',()=>{
-PersonalDetail.selectGender();
+ When('user selects gender as {string}',(gender)=>{
+PersonalDetail.selectGender(gender);
  })
- And('user selects marital status as {string}',()=>{
-PersonalDetail.selectMaritalStatus();
+ And('user selects marital status as {string}',(status)=>{
+PersonalDetail.selectMaritalStatus(status);
  })
  And('user click on save button on user detail',()=>{
 PersonalDetail.clickOnSave();

@@ -12,13 +12,13 @@ Feature: login feature
         And user clicks on Save button
         # Then user is on the user detail page
         When user selects gender as "<gender>"
-        # And user selects marital status as "<status>"
+        And user selects marital status as "<status>"
         And user click on save button on user detail
 
         Examples:
             | fname     | midname | lname   | gender | status    |
-            # | sandesh   | nana    | kale    | male   | unmarried |
-            | virat     | xyz     | kohli   | male   | married   |
+            | sandesh   | nana    | kale    | male   | unmarried |
+            # | virat     | xyz     | kohli   | male   | married   |
             # | sshubhman | abc     | Gill    | male   | unmarried |
             # | Smruti    | lmn     | mandana | female | unmarried |
             # | Abhishekh | uvw     | sharma  | male   | unmarried |
