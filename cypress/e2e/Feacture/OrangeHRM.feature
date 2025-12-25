@@ -18,11 +18,19 @@ Feature: login feature
 
         Examples:
             | fname     | midname | lname   | gender | status    |
+<<<<<<< HEAD
             | sandesh   | nana    | kale    | male   | unmarried |
             | virat     | xyz     | kohli   | male   | Married   |
             | sshubhman | abc     | Gill    | male   | unmarried |
             | Smruti    | lmn     | mandana | female | unmarried |
             | Abhishekh | uvw     | sharma  | male   | unmarried |
+=======
+            | sandesh   | nana    | kale    | male   | Single |
+            # | virat     | xyz     | kohli   | male   | married   |
+            # | sshubhman | abc     | Gill    | male   | unmarried |
+            # | Smruti    | lmn     | mandana | female | unmarried |
+            # | Abhishekh | uvw     | sharma  | male   | unmarried |
+>>>>>>> 95f3271ece6fa244905dde016cb5a11031a17ac5
 
 
 

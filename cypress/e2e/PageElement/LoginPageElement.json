@@ -1,0 +1,9 @@
+{
+     "loginpagelocators":{
+
+        "username_text":":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "password_text":":nth-child(3) > .oxd-input-group > :nth-child(2) > .oxd-input",
+        "login_button":".oxd-button"
+     }
+
+}
