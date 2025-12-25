@@ -34,9 +34,6 @@ cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper >
 .type('{downarrow}{enter}');
 //   cy.get('.oxd-select-dropdown').contains('Single').click();
 }
-
-
-
   clickOnSave() {
     cy.get(this.saveBtn).click();
   }
