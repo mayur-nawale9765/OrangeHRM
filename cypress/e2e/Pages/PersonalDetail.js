@@ -23,6 +23,17 @@ class PersonalDetailPage {
       .click();
 
     cy.contains(this.maritalStatus, status).click();
+    // if(status==="Single"){
+    //   cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text').select("Single");
+    // }else if(status==="Married"){
+    //   cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text').select("Married")
+    // } else{
+    //   cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text').select("Othern")
+
+    // }
+
+
+
   }
   clickOnSave() {
     cy.get(this.saveBtn).click();

@@ -17,7 +17,7 @@ Feature: login feature
 
         Examples:
             | fname     | midname | lname   | gender | status    |
-            | sandesh   | nana    | kale    | male   | unmarried |
+            | sandesh   | nana    | kale    | male   | Single |
             # | virat     | xyz     | kohli   | male   | married   |
             # | sshubhman | abc     | Gill    | male   | unmarried |
             # | Smruti    | lmn     | mandana | female | unmarried |
