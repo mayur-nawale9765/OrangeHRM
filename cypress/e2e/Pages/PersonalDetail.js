@@ -37,22 +37,6 @@ cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper >
 
 
 
-<<<<<<< HEAD
-=======
-    cy.contains(this.maritalStatus, status).click();
-    // if(status==="Single"){
-    //   cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text').select("Single");
-    // }else if(status==="Married"){
-    //   cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text').select("Married")
-    // } else{
-    //   cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text').select("Othern")
-
-    // }
-
-
-
-  }
->>>>>>> 95f3271ece6fa244905dde016cb5a11031a17ac5
   clickOnSave() {
     cy.get(this.saveBtn).click();
   }
