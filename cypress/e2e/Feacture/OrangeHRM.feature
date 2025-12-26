@@ -12,25 +12,17 @@ Feature: login feature
         And user clicks on Save button
         # Then user is on the user detail page
         When user selects gender as "<gender>"
-        # And user selects marital status as "<status>"
-        And user selects marital status as status
+        And user selects marital status as "<status>"
+        # And user selects marital status as status
         And user click on save button on user detail
 
         Examples:
-            | fname     | midname | lname   | gender | status    |
-<<<<<<< HEAD
-            | sandesh   | nana    | kale    | male   | unmarried |
-            | virat     | xyz     | kohli   | male   | Married   |
-            | sshubhman | abc     | Gill    | male   | unmarried |
-            | Smruti    | lmn     | mandana | female | unmarried |
-            | Abhishekh | uvw     | sharma  | male   | unmarried |
-=======
-            | sandesh   | nana    | kale    | male   | Single |
-            # | virat     | xyz     | kohli   | male   | married   |
-            # | sshubhman | abc     | Gill    | male   | unmarried |
-            # | Smruti    | lmn     | mandana | female | unmarried |
-            # | Abhishekh | uvw     | sharma  | male   | unmarried |
->>>>>>> 95f3271ece6fa244905dde016cb5a11031a17ac5
+            | fname     | midname | lname   | gender | status  |
+            | sandesh   | nana    | kale    | male   | Single  |
+            | virat     | xyz     | kohli   | male   | Married |
+            | sshubhman | abc     | Gill    | male   | Single  |
+            | Smruti    | lmn     | mandana | female | Single  |
+            | Abhishekh | uvw     | sharma  | male   | Married |
 
 
 
