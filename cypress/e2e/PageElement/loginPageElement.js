@@ -15,5 +15,9 @@ export class loginPageElements{
         cy.get(loginElLoc.loginpagelocators.login_button).click()
     }
 
+    text_validation(){
+        cy.get(loginElLoc.loginpagelocators.dsshboard_text).should("have.text","Dashboard");
+    }
+
     
 }
