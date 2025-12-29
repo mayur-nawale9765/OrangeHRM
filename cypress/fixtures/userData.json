@@ -1,0 +1,39 @@
+{
+  "users": {
+    "user1": {
+      "firstName": "sandesh",
+      "middleName": "nana",
+      "lastName": "kale",
+      "gender": "male",
+      "status": "Single"
+    },
+    "user2": {
+      "firstName": "virat",
+      "middleName": "xyz",
+      "lastName": "kohli",
+      "gender": "male",
+      "status": "Married"
+    },
+    "user3": {
+      "firstName": "Smruti",
+      "middleName": "lmn",
+      "lastName": "mandana",
+      "gender": "female",
+      "status": "Single"
+    },
+    "user4": {
+      "firstName": "hardik",
+      "middleName": "qwe",
+      "lastName": "pandya",
+      "gender": "male",
+      "status": "Single"
+    },
+    "user5": {
+      "firstName": "Harman",
+      "middleName": "poi",
+      "lastName": "koar",
+      "gender": "female",
+      "status": "Single"
+    }
+  }
+}
