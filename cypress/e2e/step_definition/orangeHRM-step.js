@@ -11,7 +11,7 @@ import PersonalDetail from "../Pages/PersonalDetail";
 
 Given("I visit the OrangeHRM page", () => {
   LoginPage.visiit();
-  cy.log("dd");
+  cy.log("dddd");
 });
 
 When("I enter a valid username and password", () => {
