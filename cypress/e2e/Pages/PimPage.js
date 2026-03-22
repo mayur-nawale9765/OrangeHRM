@@ -11,10 +11,13 @@ class PimPage {
     cy.get(this.addBtn).click();
     cy.get(this.pimHeader).should("have.text", "Add Employee");
   }
-  employeeFullName(fname, mname, lname) {
-    cy.get(this.firstName).type(fname);
-    cy.get(this.middleName).type(mname);
-    cy.get(this.lastName).type(lname);
+  employeeFullName(fname1, mname, lname) {
+   // cy.get(this.firstName).type(fname1);
+    cy.typetext(this.firstName,fname1);
+   // cy.get(this.middleName).type(mname);
+   cy.typetext(this.middleName,mname);
+    //cy.get(this.lastName).type(lname);
+    cy.typetext(this.lastName,lname);
   }
   clickOnSaveBtn() {
     cy.get(this.saveBtn).click();
