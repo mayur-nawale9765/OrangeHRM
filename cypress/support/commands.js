@@ -23,3 +23,23 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("typetext",(loc,text)=>
+{
+
+cy.get(loc).type(text);
+
+})
+
+Cypress.Commands.add("ddclicktype",(loc,text)=>
+{
+
+cy.get(loc).click().type(text,{enter});
+
+})
+
+Cypress.Commands.add("ddselect",(loc,text)=>
+{
+
+cy.get(loc).select(dd);
+
+})
